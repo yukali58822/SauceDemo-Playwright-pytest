@@ -47,23 +47,17 @@ playwright install chromium
 ## 執行全部測試 
 pytest
 
-## 無頭模式
-pytest --headless
+## 無頭模式 pytest --headless
 
-## 只跑登入測試
-pytest tests/test_login.py
+## 只跑登入測試 pytest tests/test_login.py
 
-## 放慢速度方便觀察（毫秒）
-pytest --slowmo=500
+## 放慢速度方便觀察（毫秒） pytest --slowmo=500
 
-## 只跑功能測試
-pytest -m functional
+## 只跑功能測試 pytest -m functional
 
-## 只跑回歸測試
-pytest -m regression
+## 只跑回歸測試 pytest -m regression
 
-# 只跑冒煙測試（最快，核心流程）
-pytest -m smoke
+## 只跑冒煙測試（最快，核心流程） pytest -m smoke
 
 3. 標記說明（Markers）
 functional → 功能測試：驗證新功能是否符合需求
