@@ -9,13 +9,21 @@ WebTest
 支援功能測試、回歸測試、冒煙測試
 
 專案結構
+
 SimpleWebTest/
+
 ├── tests/
-│   ├── test_login.py     # 登入功能測試
+
+│   ├── test_login.py  # 登入功能測試
+
 │   └── test_cart.py      # 購物車功能測試
+
 ├── requirements.txt       # Python 套件清單
+
 ├── pytest.ini             # pytest 設定（如 marker 定義）
+
 └── README.md
+
 測試範圍
 
 | 檔案              | 測試案例                                          | 說明                                  | 標記(Marker)        |
