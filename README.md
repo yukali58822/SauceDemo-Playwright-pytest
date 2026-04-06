@@ -44,22 +44,22 @@ pip install -r requirements.txt
 playwright install chromium
 
 2. 執行測試
-# 執行全部測試 
+## 執行全部測試 
 pytest
 
-# 無頭模式
+## 無頭模式
 pytest --headless
 
-# 只跑登入測試
+## 只跑登入測試
 pytest tests/test_login.py
 
-# 放慢速度方便觀察（毫秒）
+## 放慢速度方便觀察（毫秒）
 pytest --slowmo=500
 
-# 只跑功能測試
+## 只跑功能測試
 pytest -m functional
 
-# 只跑回歸測試
+## 只跑回歸測試
 pytest -m regression
 
 # 只跑冒煙測試（最快，核心流程）
